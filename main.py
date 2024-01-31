@@ -9,6 +9,9 @@ def sub_func(n1, n2):
 def gob_func(n1, n2):
     return n1 * n2
 
+def nan_func(n1, n2):
+    return n1 / n2
+
 
 ## 전역 변수부
 
@@ -28,3 +31,5 @@ print(num1, "-", num2, "=", res)
 res = gob_func(num1, num2)
 print(num1, "*", num2, "=", res)
 
+res = nan_func(num1, num2)
+print(num1, "/", num2, "=", res)
